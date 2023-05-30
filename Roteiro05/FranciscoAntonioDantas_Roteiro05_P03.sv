@@ -33,6 +33,6 @@ module detectorParidade(
   
   // detecta a paridade PAR na sequencia.
   always_comb
-    Saida = (state == PAR);
+    Saida = (state == IMPAR);
   
 endmodule

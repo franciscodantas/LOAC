@@ -1,7 +1,7 @@
 // Francisco Antonio Dantas de Sousa
 
 parameter NBITS = 4;
-module circuit2(
+module sequenciador(
   input logic clk,reset,Entrada_paralela,
   output logic [NBITS-1:0] Saida
 );
